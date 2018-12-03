@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lewis Quiz</title>
+	<link href="quiz.css" rel="stylesheet">
+</head>
+<body>
+	<div class="mainHeader-wrapper">
+		<a class = "mainHeader" href="index.html">
+			Lewis Hamilton
+		</a>
+	</div>	
+	 <ul>
+        <li><a class="active" href="#home">page2</a></li>
+        <li><a href="#news">page3</a></li>
+        <li><a href="#contact">page4</a></li>
+        <li><a href="#about">page5</a></li>
+         <li><a href="quiz2.html">quiz</a></li>
+    </ul>	
+	<div class = "questions">
+	    <div class = "question1" id="question1">
+		    <p>
+		        How many championships has Lewis won as of 2018?
+	        </p>
+	        <input type="radio" name="question1" class="wrong">
+	        <label>2</label>
+	        <br>
+	         <input type="radio" name="question1" class="wrong">
+	        <label>3</label>
+	          <br>
+	         <input type="radio" name="question1" class="correct">
+	        <label>5</label>
+	          <br>
+	         <input type="radio" name="question1" class="wrong">
+	        <label>4</label>	        
+
+	        <label class="wrongLabel">wrong!</label>
+	        <label class="correctLabel">correct!</label> 
+	        <br>  
+	        <button class="btnNext" onclick="btnNextQ1()">Next Question!</button> 	       
+	    </div>	
+
+	     <div class = "question2" id="question2">
+	        	<p>
+		        How many championships has Lewis won as of 2018?
+	        </p>
+	        <input type="radio" name="question2" class="wrong">
+	        <label>2</label>
+	        <br>
+	         <input type="radio" name="question2" class="wrong">
+	        <label>3</label>
+	          <br>
+	         <input type="radio" name="question2" class="correct">
+	        <label>5</label>
+	          <br>
+	         <input type="radio" name="question2" class="wrong">
+	        <label>4</label>	        
+
+	        <label class="wrongLabel">wrong!</label>
+	        <label class="correctLabel">correct!</label> 
+	        <br>  
+	        <button class="btnNext" onclick="btnNextQ1()">Next Question!</button> 	   
+
+	        </div>	
+	</div>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

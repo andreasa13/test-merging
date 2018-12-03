@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lewis Quiz</title>
+	<link href="css/quiz.css" rel="stylesheet">
+</head>
+<body>
+	<div class="mainHeader-wrapper">
+		<a class = "mainHeader" href="index.html">
+			Lewis Hamilton
+		</a>
+	</div>	
+	 <ul>
+        <li><a class="active" href="childhood.html">childhood</a></li>
+        <li><a href="#news">page3</a></li>
+        <li><a href="#contact">page4</a></li>
+        <li><a href="#about">page5</a></li>
+         <li><a href="quiz.html">quiz</a></li>
+    </ul>	
+	<div class = "questions">
+	    <div class = "question" id="question1">
+		    <p>
+		        How many championships has Lewis won as of 2018?
+	        </p>
+	        <input type="radio" name="question1" class="wrong">
+	        <label>2</label>
+	        <br>
+	         <input type="radio" name="question1" class="wrong">
+	        <label>3</label>
+	          <br>
+	         <input type="radio" name="question1" class="correct">
+	        <label>5</label>
+	          <br>
+	         <input type="radio" name="question1" class="wrong">
+	        <label>4</label>	         	       
+	    </div>	
+
+	    <div class = "question" id="question2">
+	        <p>
+		        When was lewis born?
+	        </p>
+	        <input type="radio" name="question2" class="correct">
+	        <label>1985</label>
+	        <br>
+	        <input type="radio" name="question2" class="wrong">
+	        <label>1982</label>
+	        <br>
+	        <input type="radio" name="question2" class="wrong">
+	        <label>1990</label>
+	        <br>
+	        <input type="radio" name="question2" class="wrong">
+	        <label>1987</label>	      
+	    </div>	
+	    <div class = "question" id="question3">
+	        <p>
+		        When did lewis won his first f1 championship?
+	        </p>
+	        <input type="radio" name="question3" class="wrong">
+	        <label>2010</label>
+	        <br>
+	        <input type="radio" name="question3" class="wrong">
+	        <label>2014</label>
+	        <br>
+	        <input type="radio" name="question3" class="wrong">
+	        <label>2007</label>
+	        <br>
+	        <input type="radio" name="question3" class="correct">
+	        <label>2008</label>	      
+	    </div>	
+	     <div class = "question" id="question4">
+	        <p>
+		        In what car did lewis start his f1 career?
+	        </p>
+	        <input type="radio" name="question4" class="wrong">
+	        <label>ferrari</label>
+	        <br>
+	        <input type="radio" name="question4" class="wrong">
+	        <label>red bull</label>
+	        <br>
+	        <input type="radio" name="question4" class="correct">
+	        <label>Mclaren Mercedes</label>
+	        <br>
+	        <input type="radio" name="question4" class="wrong">
+	        <label>renault</label>	      
+	    </div>	
+	     <div class = "question" id="question5">
+	        <p>
+		        In 2016 which was his teammate who also won the campionship?
+	        </p>
+	        <input type="radio" name="question5" class="wrong">
+	        <label>Sebastian Vettel</label>
+	        <br>
+	        <input type="radio" name="question5" class="correct">
+	        <label>Nico Rosberg</label>
+	        <br>
+	        <input type="radio" name="question5" class="wrong">
+	        <label>Niki Lauda</label>
+	        <br>
+	        <input type="radio" name="question5" class="wrong">
+	        <label>James Hunt</label>	      
+	    </div>	
+	        <label id="wrongLabel">wrong!</label>
+	        <br>
+	        <label id="correctLabel">correct!</label> 
+	        <br>  
+	        <button id="btnNext" class = "button nextQst" onclick="btnNext()">Next Question!</button> 
+	        <br>
+	        <label id="correctAnswers"></label> 
+	</div>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
